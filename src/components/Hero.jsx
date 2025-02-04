@@ -15,19 +15,22 @@ const Hero = () => {
             Making your ideas into advanced Apps
           </p>
           <div className="flex gap-x-4 mt-4">
-            <a href="#">
+            <a href="https://github.com/Mihailghrgh" target="blank">
               <FaGithubSquare className="h-8 w-8 text-slate-900 hover:text-white duration-300" />
             </a>
-            <a href="#">
+            <a
+              href="https://www.linkedin.com/in/gheorghe-mihail-1558191a4/"
+              target="blank"
+            >
               <FaLinkedin className="h-8 w-8 text-slate-900 hover:text-white duration-300" />
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/michael.99_/" target="blank">
               <FaInstagram className="h-8 w-8 text-slate-900 hover:text-white duration-300" />
             </a>
           </div>
         </article>
         <article className="hidden md:block">
-            <img src={heroImg} className="h-80 lg:h-96"/>
+          <img src={heroImg} className="h-80 lg:h-96" />
         </article>
       </div>
     </div>

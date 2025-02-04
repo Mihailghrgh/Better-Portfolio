@@ -1,6 +1,8 @@
 import { FaGithubSquare } from "react-icons/fa";
 import { TbWorldWww } from "react-icons/tb";
 
+const gitUrl = "https://github.com/Mihailghrgh";
+
 const ProjectCard = ({ url, img, github, title, text }) => {
   return (
     <article className="bg-white rounded-lg shadow-md hover:shadow-xl duration-300">
@@ -13,10 +15,10 @@ const ProjectCard = ({ url, img, github, title, text }) => {
         <h2 className="text-xl tracking-wide font-medium">{title}</h2>
         <p className="mt-4 text-slate-800 leading-loose">{text}</p>
         <div className="mt-4 flex gap-x-4">
-          <a href={url}>
+          <a href={url} target="blank">
             <TbWorldWww className="h-8 w-8 text-slate-1000 hover:text-slate-500" />
           </a>
-          <a href={github}>
+          <a href={gitUrl} target="blank">
             <FaGithubSquare className="h-8 w-8 text-slate-1000 hover:text-slate-500" />
           </a>
         </div>

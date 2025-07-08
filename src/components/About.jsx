@@ -12,10 +12,15 @@ const About = () => {
         <article className="text-start max-w-lg">
           <SectionTitle title="About Me" />
           <p className="text-slate-800 my-8 mr leading-loose">
-            I’m a front-end developer skilled in React, TypeScript, and modern
-            web tools. This portfolio showcases my projects and expertise in
-            React Query, TailwindCSS, UI libraries, mapping tools, and more. I
-            focus on building fast, scalable, and user-friendly applications.
+            Versatile digital marketer and Full-Stack Developer with 4+ years of
+            experience in marketing and a strong technical foundation in modern
+            web development (JavaScript, TypeScript, React, Node.js). I combine
+            hands-on experience in SEO, data analytics, and campaign performance
+            with the ability to build full-scale web applications. My recent
+            freelance projects have allowed me to apply both creative and
+            technical skills to solve real business challenges. I`m looking to
+            join a team where I can contribute across digital strategy, user
+            experience, and technology.
           </p>
         </article>
       </div>

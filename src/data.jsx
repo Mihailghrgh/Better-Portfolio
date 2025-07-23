@@ -13,7 +13,6 @@ import { SiShadcnui } from "react-icons/si";
 import { RiSupabaseFill } from "react-icons/ri";
 import { SiExpress } from "react-icons/si";
 
-
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
   { id: nanoid(), href: "#skills", text: "skills" },
@@ -32,7 +31,7 @@ export const skills = [
     id: nanoid(),
     title: "Next JS",
     icon: <RiNextjsFill className="h-16 w-16 text-sky-600" />,
-    text: "Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality",
+    text: "Next.js is a React framework that enables server-side rendering, static site generation, and powerful routing out of the box. It’s designed to help developers build fast, scalable web applications with built-in support for TypeScript, API routes, and full-stack capabilities.",
   },
   {
     id: nanoid(),
